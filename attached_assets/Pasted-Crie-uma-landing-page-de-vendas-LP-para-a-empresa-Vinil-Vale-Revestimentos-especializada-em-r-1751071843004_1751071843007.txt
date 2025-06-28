@@ -1,0 +1,142 @@
+Crie uma landing page de vendas (LP) para a empresa **Vinil Vale Revestimentos**, especializada em revestimentos de vinil para piscinas, capas de proteção e capas térmicas, utilizando **React**, **Node.js** e **Shadcn/UI** como base para todos os componentes da interface. A página deve ser moderna, responsiva e otimizada para conversão, inspirada em landing pages de alta performance no setor de piscinas (ex.: PoolCorp, Leslie’s Pools). O objetivo é capturar leads (nome, e-mail, telefone) para orçamentos, com uma comunicação **persuasiva, comunicativa e envolvente**, criando urgência e conexão emocional com o público-alvo (proprietários de piscinas que buscam qualidade, beleza e praticidade).
+
+### Objetivo
+A landing page deve destacar os revestimentos de vinil como o carro-chefe, com menções às capas de proteção e térmicas como serviços complementares, sem abordar construção de piscinas. A LP deve ter um tom direto, caloroso e persuasivo, com design intuitivo e componentes exclusivamente do **Shadcn/UI**, para maximizar a conversão de leads. A página deve ser fácil de navegar, com chamadas à ação (CTAs) claras e frequentes.
+
+### Requisitos Funcionais
+1. **Estrutura da Página**
+   - **Hero Section**:
+     - Título: ** **"Tenha a Piscina dos Seus Sonhos com a Vinil Vale!"**
+     - Subtítulo: ** **"Revestimento em vinil de alta qualidade, com beleza, duradoura e economia. Solicite seu orçamento gratuito hoje mesmo!"**
+     - Imagem de fundo: Piscina moderna com revestimento de vinil (usar placeholder royalty-free, ex.: de Unsplash).
+     - CTA: Botão ** **"Quero Meu Orçamento Grátis!"** (componente Shadcn/UI Button, estilizado com Tailwind CSS em verde vibrante) que rola para o formulário.
+     - Tom persuasivo: Usar frases como "Transforme sua piscina agora!" para criar urgência.
+   - **Seção de Benefícios**:
+     - Título: ** **"Por que a Vinil Vale é a Melhor Escolha para Sua Piscina?"**
+     - 4 benefícios do revestimento em vinil, com texto comunicativo:
+       - **Durabilidade Imbatível**: "Nosso vinil resiste a tudo: sol, cloro e anos de uso!"
+       - **Beleza Personalizada**: "Escolha entre cores e acabamentos que combinam com seu estilo."
+       - **Economia Real**: "Mais acessível que outros revestimentos, sem abrir mão da qualidade."
+       - **Manutenção Zero Stress**: "Limpeza rápida para você curtir sua piscina sem preocupação."
+     - Menção às capas: ** **"Nossas capas de proteção e térmicas mantêm sua piscina segura e aquecida o ano todo!"**
+     - Usar componente Shadcn/UI Card para cada benefício, com ícones (Lucide Icons via Shadcn/UI).
+   - **Seção de Depoimentos**:
+     - Título: ** **"Veja o que Nossos Clientes estão Amando!"**
+     - 3 depoimentos fictícios em carrossel (usar componente Shadcn/UI Carousel):
+       - Ex.: "Minha piscina ficou incrível com o vinil da Vinil Vale! Super recomendo!" – Ana C., Campinas, SP.
+       - Ex.: "A capa térmica economizou minha conta de energia. Excelente atendimento!" – Marcos R., São Paulo, SP.
+       - Ex.: "Profissionalismo e qualidade que fazem diferença. Minha piscina está perfeita!" – Juliana M., Sorocaba, SP.
+     - Tom: Caloroso e confiável, reforçando a satisfação do cliente.
+   - **Seção de Fornecedores**:
+     - Título: ** **"Parcerias com as Melhores Marcas do Mercado"**
+     - Listar: Acqualiner, Sansui, Sipatex, Locomotiva/Aqualona (usar texto ou placeholders para logotipos).
+     - Usar componente Shadcn/UI Grid para exibir os fornecedores.
+   - **Seção de Formulário**:
+     - Título: ** **"Solicite Agora Seu Orçamento Personalizado!"**
+     - Formulário (componente Shadcn/UI Form) com campos:
+       - Nome
+       - E-mail
+       - Telefone
+       - Tipo de Serviço (dropdown Shadcn/UI Select: Vinil, Capa de Proteção, Capa Térmica)
+     - CTA: Botão ** **"Enviar Meu Orçamento"** (Shadcn/UI Button).
+     - Feedback com ** **react-toastify** (ex.: "Orçamento enviado! Entraremos em contato em breve!").
+     - Tom: ** **"Não perca tempo! Fale com a gente e transforme sua piscina hoje!"**
+   - **Seção de FAQ**:
+     - Título: ** **"Suas Dúvidas Respondidas"**
+     - 5 perguntas em acordeão (Shadcn/UI Accordion):
+       - "Quanto tempo dura o revestimento de vinil?" → "Mais de 10 anos com os cuidados certos!"
+       - "As capas térmicas realmente economizam energia?" → "Sim, mantêm a água aquecida por mais tempo!"
+       - "Vocês atendem minha região?" → "Atendemos todo o estado de São Paulo!"
+       - "O vinil é seguro para crianças?" → "Totalmente! É antiderrapante e resistente."
+       - "Como solicito um orçamento?" → "Preencha o formulário acima e pronto!"
+     - Tom: Claro, amigável e tranquilizador.
+   - **Footer**:
+     - Texto: ** **"Vinil Vale Revestimentos | Transformando piscinas com qualidade e confiança."**
+     - Contato: ** **contato@vinilvale.com | (11) 99999-9999 | São Paulo, SP**
+     - Ícones de redes sociais (Shadcn/UI Icons): WhatsApp, Instagram.
+     - Texto: ** **"© 2025 Vinil Vale Revestimentos. Todos os direitos reservados."**
+
+2. **Funcionalidades Interativas**
+   - **Formulário**: Enviar dados via POST /leads, com validação (usar ** **react-hook-form** com Shadcn/UI).
+   - **Notificações**: ** **react-toastify** para feedback (ex.: sucesso ou erro no envio).
+   - **Navegação**: Menu fixo no topo (Shadcn/UI NavigationMenu) com links para Hero, Benefícios, Depoimentos, Contato.
+   - **CTA Flutuante**: Botão ** **"Orçamento Grátis"** (Shadcn/UI Button) visível ao rolar.
+   - **Responsividade**: Design adaptável com Tailwind CSS.
+
+3. **Backend (Node.js)**
+   - API com ** **Express**:
+     - Banco de dados: ** **SQLite** (** **better-sqlite3**).
+     - Endpoints:
+       - POST /leads: salvar nome, e-mail, telefone, tipo de serviço.
+       - GET /leads: listar leads (opcional, para admin).
+     - Validação: E-mail válido, telefone no formato (XX) XXXXX-XXXX.
+     - Configurar CORS.
+   - Opcional: Endpoint para exportar leads como CSV.
+
+4. **Design e Estilização**
+   - **Componentes**: Usar ** **Shadcn/UI** exclusivamente para botões, formulários, carrossel, acordeão, navegação, etc.
+   - Estilização: ** **Tailwind CSS** com paleta de azul (piscina), branco, cinza e verde (CTAs).
+   - Tipografia: Google Fonts (Inter ou Poppins, carregada via CDN).
+   - Tema: Claro com opção de modo escuro (Shadcn/UI).
+   - Imagens: Placeholders de piscinas (ex.: Unsplash) ou texto descritivo.
+
+5. **Copywriting Persuasivo**
+   - Tom: Envolvente, direto e emocional, com frases como:
+     - "Sua piscina merece o melhor!"
+     - "Não espere mais para ter a piscina dos seus sonhos!"
+     - "Orçamento grátis em minutos, sem compromisso!"
+   - Criar urgência: Ex.: "Solicite agora e receba seu orçamento em até 24 horas!"
+   - Foco nos benefícios: Beleza, economia, praticidade, segurança.
+
+6. **Estrutura Técnica**
+   - **Frontend**:
+     - ** **React** com ** **Vite**.
+     - Componentes: ** **Shadcn/UI** (Button, Form, Select, Carousel, Accordion, NavigationMenu).
+     - Estado: ** **Zustand**.
+     - Bibliotecas:
+       - ** **react-hook-form** (formulários).
+       - ** **axios** (API).
+       - ** **react-toastify** (notificações).
+     - CDNs: cdn.jsdelivr.net para React, Shadcn/UI.
+   - **Backend**:
+     - ** **Express**.
+     - Banco: ** **SQLite**.
+   - Projeto:
+     - /client: frontend.
+     - /server: backend.
+     - README com instruções:
+       - npm install
+       - npm run dev (frontend)
+       - npm start (backend)
+       - Configurar SQLite
+
+7. **Inspiração em LPs**
+   - Hero vibrante com CTA claro (ex.: Leslie’s Pools).
+   - Prova social com depoimentos (ex.: PoolCorp).
+   - Formulário simples e acessível.
+   - Design com cores aquáticas e imagens de piscinas.
+
+8. **Requisitos Adicionais**
+   - Idioma: Português (BR).
+   - Acessibilidade: ARIA labels, navegação por teclado.
+   - SEO: Meta tags (título: "Vinil Vale Revestimentos - Revestimento em Vinil para Piscinas", descrição: "Revestimentos de vinil e capas de alta qualidade. Orçamento grátis!").
+   - Fornecedores: Acqualiner, Sansui, Sipatex, Locomotiva/Aqualona (texto ou placeholders).
+   - Single-page application (SPA) com navegação fluida.
+
+### Entregáveis
+- Código completo:
+  - /client, /server.
+  - `index.html` com CDNs.
+  - Componentes React reutilizáveis.
+  - API documentada.
+- README com instruções.
+- Design com mockups (opcional).
+
+### Prioridades
+1. Comunicação persuasiva e comunicativa.
+2. Interface com Shadcn/UI, intuitiva e conversiva.
+3. Formulário funcional para leads.
+4. Design responsivo.
+5. Backend para salvar leads.
+
+Gere o aplicativo completo, testável e pronto para uso, com foco em atrair clientes para a Vinil Vale Revestimentos.
