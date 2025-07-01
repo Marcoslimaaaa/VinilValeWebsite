@@ -50,7 +50,7 @@ export default function Testimonials() {
         <div className="text-center mb-16">
           <h2 className="font-bold text-4xl md:text-5xl text-gray-900 mb-6">
             Veja o que Nossos Clientes estão{" "}
-            <span className="pool-blue-500">Amando!</span>
+            <span className="vinyl-blue-500">Amando!</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
             A satisfação dos nossos clientes é nossa maior conquista. Veja alguns depoimentos reais de quem transformou sua piscina conosco!
@@ -120,7 +120,7 @@ export default function Testimonials() {
                 key={index}
                 onClick={() => goToTestimonial(index)}
                 className={`w-3 h-3 rounded-full transition-colors ${
-                  index === currentTestimonial ? "bg-pool-blue-500" : "bg-gray-300"
+                  index === currentTestimonial ? "bg-vinyl-blue-500" : "bg-gray-300"
                 }`}
               />
             ))}

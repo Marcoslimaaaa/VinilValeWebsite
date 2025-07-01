@@ -7,15 +7,15 @@ export default function Benefits() {
       icon: Shield,
       title: "Durabilidade Imbatível",
       description: "Nosso vinil resiste a tudo: sol, cloro e anos de uso! Invista uma vez e desfrute por mais de 10 anos.",
-      color: "bg-pool-blue-100 group-hover:bg-pool-blue-500",
-      iconColor: "text-pool-blue-500 group-hover:text-white",
+      color: "bg-vinyl-blue-100 group-hover:bg-vinyl-blue-500",
+      iconColor: "text-vinyl-blue-500 group-hover:text-white",
     },
     {
       icon: Palette,
       title: "Beleza Personalizada",
       description: "Escolha entre cores e acabamentos que combinam com seu estilo. Sua piscina, sua personalidade!",
-      color: "bg-pool-green-100 group-hover:bg-pool-green-500",
-      iconColor: "text-pool-green-500 group-hover:text-white",
+      color: "bg-vinyl-teal-100 group-hover:bg-vinyl-teal-500",
+      iconColor: "text-vinyl-teal-500 group-hover:text-white",
     },
     {
       icon: PiggyBank,
@@ -39,7 +39,7 @@ export default function Benefits() {
         <div className="text-center mb-16 animate-slide-up">
           <h2 className="font-bold text-4xl md:text-5xl text-gray-900 mb-6">
             Por que a Vinil Vale é a{" "}
-            <span className="pool-blue-500">Melhor Escolha</span> para Sua Piscina?
+            <span className="vinyl-blue-500">Melhor Escolha</span> para Sua Piscina?
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Transforme sua piscina com nossos revestimentos de vinil de alta qualidade e descubra por que somos a escolha preferida de centenas de famílias!
@@ -64,9 +64,9 @@ export default function Benefits() {
         </div>
 
         {/* Additional Services */}
-        <div className="bg-gradient-to-r from-pool-blue-50 to-pool-green-50 rounded-2xl p-8 text-center">
+        <div className="bg-gradient-to-r from-vinyl-blue-50 to-vinyl-teal-50 rounded-2xl p-8 text-center">
           <h3 className="font-semibold text-2xl text-gray-900 mb-4">
-            <Umbrella className="w-6 h-6 inline mr-2 pool-blue-500" />
+            <Umbrella className="w-6 h-6 inline mr-2 vinyl-blue-500" />
             Proteção Completa para Sua Piscina
           </h3>
           <p className="text-lg text-gray-700 mb-6 max-w-3xl mx-auto">
@@ -74,11 +74,11 @@ export default function Benefits() {
             Economize energia, proteja sua família e mantenha a água sempre limpa.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <div className="flex items-center justify-center pool-blue-700">
+            <div className="flex items-center justify-center vinyl-blue-700">
               <Thermometer className="w-5 h-5 mr-2" />
               <span className="font-medium">Capas Térmicas</span>
             </div>
-            <div className="flex items-center justify-center pool-green-700">
+            <div className="flex items-center justify-center vinyl-teal-700">
               <ShieldCheck className="w-5 h-5 mr-2" />
               <span className="font-medium">Capas de Proteção</span>
             </div>

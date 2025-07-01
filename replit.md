@@ -99,7 +99,10 @@ This is a modern React landing page for Vinil Vale Revestimentos, a company spec
 - **Production**: PostgreSQL with connection pooling
 
 ## Changelog
-- June 28, 2025. Initial setup
+- July 1, 2025: Updated brand colors to Vinil Vale palette (vinyl-blue, vinyl-teal, vinyl-navy, vinyl-orange)
+- July 1, 2025: Added new Gallery section with work showcase and navigation integration
+- July 1, 2025: Enhanced visual identity with professional color scheme
+- June 28, 2025: Initial setup
 
 ## User Preferences
 

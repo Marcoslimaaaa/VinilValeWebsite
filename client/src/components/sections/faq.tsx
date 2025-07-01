@@ -30,7 +30,7 @@ export default function FAQ() {
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="font-bold text-4xl md:text-5xl text-gray-900 mb-6">
-              Suas <span className="pool-blue-500">Dúvidas Respondidas</span>
+              Suas <span className="vinyl-blue-500">Dúvidas Respondidas</span>
             </h2>
             <p className="text-xl text-gray-600">
               Esclarecemos as principais dúvidas sobre nossos revestimentos e serviços para você ter total confiança na sua escolha.

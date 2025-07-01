@@ -9,7 +9,7 @@ export default function Suppliers() {
         <div className="text-center mb-16">
           <h2 className="font-bold text-4xl md:text-5xl text-gray-900 mb-6">
             Parcerias com as{" "}
-            <span className="pool-blue-500">Melhores Marcas</span> do Mercado
+            <span className="vinyl-blue-500">Melhores Marcas</span> do Mercado
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Trabalhamos apenas com fornecedores de confiança, garantindo a mais alta qualidade em todos os nossos produtos e serviços.
@@ -29,7 +29,7 @@ export default function Suppliers() {
 
         <div className="text-center mt-12">
           <p className="text-gray-600 font-medium">
-            <ShieldCheck className="w-5 h-5 inline mr-2 pool-green-500" />
+            <ShieldCheck className="w-5 h-5 inline mr-2 vinyl-teal-500" />
             Qualidade garantida pelos melhores do mercado
           </p>
         </div>

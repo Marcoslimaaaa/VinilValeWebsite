@@ -35,7 +35,7 @@ export default function Navigation() {
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-2">
-            <div className="w-10 h-10 bg-pool-blue-500 rounded-lg flex items-center justify-center">
+            <div className="w-10 h-10 bg-vinyl-blue-500 rounded-lg flex items-center justify-center">
               <Waves className="w-6 h-6 text-white" />
             </div>
             <span className="font-bold text-xl text-gray-900">Vinil Vale</span>
@@ -44,31 +44,37 @@ export default function Navigation() {
           <div className="hidden md:flex items-center space-x-8">
             <button
               onClick={() => scrollToSection("hero")}
-              className="text-gray-700 hover:text-pool-blue-500 transition-colors font-medium"
+              className="text-gray-700 hover:text-vinyl-blue-500 transition-colors font-medium"
             >
               Início
             </button>
             <button
               onClick={() => scrollToSection("beneficios")}
-              className="text-gray-700 hover:text-pool-blue-500 transition-colors font-medium"
+              className="text-gray-700 hover:text-vinyl-blue-500 transition-colors font-medium"
             >
               Benefícios
             </button>
             <button
+              onClick={() => scrollToSection("galeria")}
+              className="text-gray-700 hover:text-vinyl-blue-500 transition-colors font-medium"
+            >
+              Galeria
+            </button>
+            <button
               onClick={() => scrollToSection("depoimentos")}
-              className="text-gray-700 hover:text-pool-blue-500 transition-colors font-medium"
+              className="text-gray-700 hover:text-vinyl-blue-500 transition-colors font-medium"
             >
               Depoimentos
             </button>
             <button
               onClick={() => scrollToSection("contato")}
-              className="text-gray-700 hover:text-pool-blue-500 transition-colors font-medium"
+              className="text-gray-700 hover:text-vinyl-blue-500 transition-colors font-medium"
             >
               Contato
             </button>
             <Button
               onClick={scrollToForm}
-              className="bg-pool-green-500 hover:bg-pool-green-600 text-white font-semibold"
+              className="bg-vinyl-teal-500 hover:bg-vinyl-teal-600 text-white font-semibold"
             >
               Orçamento Grátis
             </Button>
@@ -86,31 +92,37 @@ export default function Navigation() {
                 <div className="flex flex-col space-y-4 mt-8">
                   <button
                     onClick={() => scrollToSection("hero")}
-                    className="text-left text-gray-700 hover:text-pool-blue-500 transition-colors font-medium py-2"
+                    className="text-left text-gray-700 hover:text-vinyl-blue-500 transition-colors font-medium py-2"
                   >
                     Início
                   </button>
                   <button
                     onClick={() => scrollToSection("beneficios")}
-                    className="text-left text-gray-700 hover:text-pool-blue-500 transition-colors font-medium py-2"
+                    className="text-left text-gray-700 hover:text-vinyl-blue-500 transition-colors font-medium py-2"
                   >
                     Benefícios
                   </button>
                   <button
+                    onClick={() => scrollToSection("galeria")}
+                    className="text-left text-gray-700 hover:text-vinyl-blue-500 transition-colors font-medium py-2"
+                  >
+                    Galeria
+                  </button>
+                  <button
                     onClick={() => scrollToSection("depoimentos")}
-                    className="text-left text-gray-700 hover:text-pool-blue-500 transition-colors font-medium py-2"
+                    className="text-left text-gray-700 hover:text-vinyl-blue-500 transition-colors font-medium py-2"
                   >
                     Depoimentos
                   </button>
                   <button
                     onClick={() => scrollToSection("contato")}
-                    className="text-left text-gray-700 hover:text-pool-blue-500 transition-colors font-medium py-2"
+                    className="text-left text-gray-700 hover:text-vinyl-blue-500 transition-colors font-medium py-2"
                   >
                     Contato
                   </button>
                   <Button
                     onClick={scrollToForm}
-                    className="bg-pool-green-500 hover:bg-pool-green-600 text-white font-semibold w-full mt-4"
+                    className="bg-vinyl-teal-500 hover:bg-vinyl-teal-600 text-white font-semibold w-full mt-4"
                   >
                     Orçamento Grátis
                   </Button>

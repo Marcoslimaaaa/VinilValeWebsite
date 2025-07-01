@@ -23,7 +23,7 @@ export default function ContactForm() {
       nome: "",
       email: "",
       telefone: "",
-      servico: "",
+      servico: "vinil" as const,
       mensagem: "",
     },
   });
@@ -69,13 +69,13 @@ export default function ContactForm() {
   };
 
   return (
-    <section id="contato" className="py-20 bg-gradient-to-br from-pool-blue-50 to-pool-green-50">
+    <section id="contato" className="py-20 bg-gradient-to-br from-vinyl-blue-50 to-vinyl-teal-50">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="font-bold text-4xl md:text-5xl text-gray-900 mb-6">
               Solicite Agora Seu{" "}
-              <span className="pool-blue-500">Orçamento Personalizado!</span>
+              <span className="vinyl-blue-500">Orçamento Personalizado!</span>
             </h2>
             <p className="text-xl text-gray-700 mb-4">
               <strong>Não perca tempo! Fale com a gente e transforme sua piscina hoje!</strong>
@@ -196,7 +196,7 @@ export default function ContactForm() {
                     <Button
                       type="submit"
                       disabled={isSubmitting}
-                      className="bg-pool-green-500 hover:bg-pool-green-600 text-white font-semibold text-lg px-10 py-4 w-full md:w-auto"
+                      className="bg-vinyl-teal-500 hover:bg-vinyl-teal-600 text-white font-semibold text-lg px-10 py-4 w-full md:w-auto"
                     >
                       <Send className="w-5 h-5 mr-2" />
                       {isSubmitting ? "Enviando..." : "Enviar Meu Orçamento"}
@@ -215,15 +215,15 @@ export default function ContactForm() {
           <div className="mt-12 text-center">
             <div className="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-8">
               <div className="flex items-center">
-                <Phone className="w-5 h-5 pool-blue-500 mr-2" />
+                <Phone className="w-5 h-5 vinyl-blue-500 mr-2" />
                 <span className="font-medium text-gray-700">(11) 99999-9999</span>
               </div>
               <div className="flex items-center">
-                <Mail className="w-5 h-5 pool-blue-500 mr-2" />
+                <Mail className="w-5 h-5 vinyl-blue-500 mr-2" />
                 <span className="font-medium text-gray-700">contato@vinilvale.com</span>
               </div>
               <div className="flex items-center">
-                <MapPin className="w-5 h-5 pool-blue-500 mr-2" />
+                <MapPin className="w-5 h-5 vinyl-blue-500 mr-2" />
                 <span className="font-medium text-gray-700">São Paulo, SP</span>
               </div>
             </div>

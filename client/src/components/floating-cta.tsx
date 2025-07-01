@@ -30,7 +30,7 @@ export default function FloatingCTA() {
     >
       <Button
         onClick={scrollToForm}
-        className="bg-pool-green-500 hover:bg-pool-green-600 text-white font-semibold shadow-2xl animate-pulse"
+        className="bg-vinyl-teal-500 hover:bg-vinyl-teal-600 text-white font-semibold shadow-2xl animate-pulse"
       >
         <PhoneCall className="w-5 h-5 mr-2" />
         Orçamento Grátis

@@ -1,6 +1,7 @@
 import Navigation from "@/components/layout/navigation";
 import Hero from "@/components/sections/hero";
 import Benefits from "@/components/sections/benefits";
+import Gallery from "@/components/sections/gallery";
 import Testimonials from "@/components/sections/testimonials";
 import Suppliers from "@/components/sections/suppliers";
 import ContactForm from "@/components/sections/contact-form";
@@ -14,6 +15,7 @@ export default function Home() {
       <Navigation />
       <Hero />
       <Benefits />
+      <Gallery />
       <Testimonials />
       <Suppliers />
       <ContactForm />
