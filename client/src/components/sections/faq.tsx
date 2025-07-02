@@ -7,12 +7,12 @@ export default function FAQ() {
       answer: "Mais de 10 anos com os cuidados certos! Nossos revestimentos de vinil são produzidos com materiais de alta qualidade que resistem ao sol, cloro e uso intenso, garantindo durabilidade excepcional.",
     },
     {
-      question: "As capas térmicas realmente economizam energia?",
-      answer: "Sim, mantêm a água aquecida por mais tempo! As capas térmicas reduzem a perda de calor em até 80%, diminuindo significativamente o gasto com aquecimento e mantendo sua piscina na temperatura ideal.",
+      question: "Que tipos de estampas e cores vocês oferecem?",
+      answer: "Temos uma variedade incrível de opções! Oferecemos estampas clássicas como pastilhas azuis, texturas modernas e cores sólidas. Cada revestimento é cuidadosamente selecionado para combinar com seu projeto.",
     },
     {
       question: "Vocês atendem minha região?",
-      answer: "Atendemos todo o estado de São Paulo! Nossa equipe está preparada para atender desde a capital até o interior, levando qualidade e profissionalismo onde você estiver.",
+      answer: "Atendemos toda a região do Vale do Ribeira e até 200km de distância da nossa sede! Nossa equipe está preparada para atender sua região, levando qualidade e profissionalismo até você.",
     },
     {
       question: "O vinil é seguro para crianças?",

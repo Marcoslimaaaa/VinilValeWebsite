@@ -63,24 +63,24 @@ export default function Benefits() {
           ))}
         </div>
 
-        {/* Additional Services */}
+        {/* Vinyl Quality Guarantee */}
         <div className="bg-gradient-to-r from-vinyl-blue-50 to-vinyl-teal-50 rounded-2xl p-8 text-center">
           <h3 className="font-semibold text-2xl text-gray-900 mb-4">
-            <Umbrella className="w-6 h-6 inline mr-2 vinyl-blue-500" />
-            Proteção Completa para Sua Piscina
+            <Sparkles className="w-6 h-6 inline mr-2 vinyl-blue-500" />
+            Garantia de Qualidade Vinil Vale
           </h3>
           <p className="text-lg text-gray-700 mb-6 max-w-3xl mx-auto">
-            <strong>Nossas capas de proteção e térmicas mantêm sua piscina segura e aquecida o ano todo!</strong>{" "}
-            Economize energia, proteja sua família e mantenha a água sempre limpa.
+            <strong>Nossos revestimentos em vinil são fabricados com os melhores materiais do mercado!</strong>{" "}
+            Oferecemos garantia, instalação profissional e suporte completo para sua total tranquilidade.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <div className="flex items-center justify-center vinyl-blue-700">
-              <Thermometer className="w-5 h-5 mr-2" />
-              <span className="font-medium">Capas Térmicas</span>
+              <Shield className="w-5 h-5 mr-2" />
+              <span className="font-medium">Garantia de Qualidade</span>
             </div>
             <div className="flex items-center justify-center vinyl-teal-700">
               <ShieldCheck className="w-5 h-5 mr-2" />
-              <span className="font-medium">Capas de Proteção</span>
+              <span className="font-medium">Instalação Profissional</span>
             </div>
           </div>
         </div>

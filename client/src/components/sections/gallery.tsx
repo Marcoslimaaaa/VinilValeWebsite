@@ -8,40 +8,40 @@ export default function Gallery() {
 
   const galleryImages = [
     {
-      src: "https://images.unsplash.com/photo-1571902943202-507ec2618e8f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1200&h=800",
-      alt: "Piscina com revestimento de vinil azul turquesa",
-      title: "Revestimento Vinil Azul Turquesa",
-      description: "Acabamento perfeito e duradouro"
+      src: "/attached_assets/photo_5073356202469076357_y_1751416022778.jpg",
+      alt: "Piscina residencial com revestimento de vinil azul e deck de madeira",
+      title: "Revestimento Vinil Azul Premium",
+      description: "Acabamento perfeito com deck de madeira"
     },
     {
-      src: "https://images.unsplash.com/photo-1566577739112-5180d4bf9390?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1200&h=800",
-      alt: "Piscina moderna com capa térmica",
-      title: "Capa Térmica Premium",
-      description: "Economia de energia garantida"
+      src: "/attached_assets/photo_5073356202469076355_y_1751416022779.jpg",
+      alt: "Piscina com estampa em pastilhas azuis e área de lazer",
+      title: "Estampa Pastilhas Azuis",
+      description: "Design moderno e sofisticado"
     },
     {
-      src: "https://images.unsplash.com/photo-1571919743851-2ca153d4d400?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1200&h=800",
-      alt: "Área de lazer completa com piscina revestida",
-      title: "Área de Lazer Completa",
-      description: "Transformação total do espaço"
+      src: "/attached_assets/photo_5071467855672880623_y_1751416022779.jpg",
+      alt: "Piscina moderna com spa e deck em madeira",
+      title: "Conjunto Piscina + Spa",
+      description: "Área de relaxamento completa"
     },
     {
-      src: "https://images.unsplash.com/photo-1594736797933-d0ed7e12e9bb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1200&h=800",
-      alt: "Piscina com bordas em pedra e vinil",
-      title: "Vinil com Acabamento em Pedra",
-      description: "Elegância e sofisticação"
+      src: "/attached_assets/photo_5073356202469076353_y_1751416022780.jpg",
+      alt: "Piscina com cascata e revestimento em vinil azul",
+      title: "Piscina com Cascata",
+      description: "Elemento decorativo e relaxante"
     },
     {
-      src: "https://images.unsplash.com/photo-1562778612-e1e0cda9915c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1200&h=800",
-      alt: "Piscina residencial com capa de proteção",
-      title: "Capa de Proteção Residencial",
-      description: "Segurança para toda família"
+      src: "/attached_assets/photo_5073356202469076351_y_1751416022780.jpg",
+      alt: "Piscina infantil com estampa em pastilhas azuis",
+      title: "Piscina Infantil",
+      description: "Segurança e diversão para crianças"
     },
     {
-      src: "https://images.unsplash.com/photo-1600298881974-6be191ceeda1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1200&h=800",
-      alt: "Piscina de cobertura com vinil especial",
-      title: "Vinil Especial para Cobertura",
-      description: "Resistência máxima"
+      src: "/attached_assets/photo_5087002949951008085_y_1751416022780.jpg",
+      alt: "Piscina com revestimento turquesa e deck modular",
+      title: "Revestimento Turquesa",
+      description: "Cor vibrante e acabamento de qualidade"
     }
   ];
 
@@ -65,7 +65,7 @@ export default function Gallery() {
             Nossos <span className="vinyl-blue-500">Trabalhos Realizados</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Veja alguns dos projetos que realizamos com excelência. Cada piscina conta uma história de transformação e satisfação!
+            Conheça nossos revestimentos em vinil de alta qualidade! Oferecemos uma ampla variedade de cores e estampas exclusivas para transformar sua piscina em um verdadeiro oásis.
           </p>
         </div>
 

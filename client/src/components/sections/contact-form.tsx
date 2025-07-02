@@ -185,6 +185,7 @@ export default function ContactForm() {
                             placeholder="Conte-nos mais sobre seu projeto..."
                             rows={4}
                             {...field}
+                            value={field.value || ""}
                           />
                         </FormControl>
                         <FormMessage />
@@ -216,15 +217,15 @@ export default function ContactForm() {
             <div className="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-8">
               <div className="flex items-center">
                 <Phone className="w-5 h-5 vinyl-blue-500 mr-2" />
-                <span className="font-medium text-gray-700">(11) 99999-9999</span>
+                <span className="font-medium text-gray-700">(13) 997305949</span>
               </div>
               <div className="flex items-center">
                 <Mail className="w-5 h-5 vinyl-blue-500 mr-2" />
-                <span className="font-medium text-gray-700">contato@vinilvale.com</span>
+                <span className="font-medium text-gray-700">vinilvale@hotmail.com</span>
               </div>
               <div className="flex items-center">
                 <MapPin className="w-5 h-5 vinyl-blue-500 mr-2" />
-                <span className="font-medium text-gray-700">São Paulo, SP</span>
+                <span className="font-medium text-gray-700">Registro, SP</span>
               </div>
             </div>
           </div>

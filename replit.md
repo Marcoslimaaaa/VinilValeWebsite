@@ -99,6 +99,14 @@ This is a modern React landing page for Vinil Vale Revestimentos, a company spec
 - **Production**: PostgreSQL with connection pooling
 
 ## Changelog
+- July 2, 2025: Complete website update with authentic Vinil Vale content
+- July 2, 2025: Updated Hero section with real pool photo background
+- July 2, 2025: Gallery section now shows real work photos from Vinil Vale projects
+- July 2, 2025: Testimonials updated with real customer reviews from Google
+- July 2, 2025: Contact information corrected (phone: 13-997305949, email: vinilvale@hotmail.com, location: Registro SP)
+- July 2, 2025: FAQ updated with correct service area (Vale do Ribeira + 200km radius)
+- July 2, 2025: Removed all references to thermal and protective covers - focus exclusively on vinyl pool linings
+- July 2, 2025: Corrected supplier name from "Sipatex" to "Cipatex"
 - July 1, 2025: Updated brand colors to Vinil Vale palette (vinyl-blue, vinyl-teal, vinyl-navy, vinyl-orange)
 - July 1, 2025: Added new Gallery section with work showcase and navigation integration
 - July 1, 2025: Enhanced visual identity with professional color scheme

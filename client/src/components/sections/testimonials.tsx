@@ -8,22 +8,28 @@ export default function Testimonials() {
 
   const testimonials = [
     {
-      quote: "Minha piscina ficou incrível com o vinil da Vinil Vale! O acabamento é perfeito e a equipe super profissional. Super recomendo!",
-      author: "Ana Claudia",
-      location: "Campinas, SP",
+      quote: "Bem eu super indico, profissionais excelentes, entregaram o trabalho bem antes da data do contrato, agradeço grandemente, sem dizer valor super acessível, até hj se eu precisar me dão suporte em tudo.",
+      author: "Daniela Santana",
+      location: "Cliente Vinil Vale",
       avatar: "https://images.unsplash.com/photo-1494790108755-2616b612b407?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=128&h=128",
     },
     {
-      quote: "A capa térmica economizou muito na minha conta de energia! Atendimento excelente desde o primeiro contato até a entrega.",
-      author: "Marcos Roberto",
-      location: "São Paulo, SP",
+      quote: "Serviço top, entrega antes do prazo e prestadores super simpáticos. Raridade aqui em Registro",
+      author: "Iran de Paula Novaes",
+      location: "Registro, SP",
       avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=128&h=128",
     },
     {
-      quote: "Profissionalismo e qualidade que fazem diferença. Minha piscina está perfeita! Recomendo de olhos fechados.",
-      author: "Juliana Mendes",
-      location: "Sorocaba, SP",
+      quote: "Excelente profissional e trabalho ficou ótimo",
+      author: "Luiz Anselmo Rodrigues",
+      location: "Vale do Ribeira",
       avatar: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=128&h=128",
+    },
+    {
+      quote: "Um profissional muito atencioso, esclarece todas as dúvidas sem enrolação com um preço super justo, material de... Exibir avaliação completa",
+      author: "Alex Sandro Silva",
+      location: "Cliente Vinil Vale",
+      avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=128&h=128",
     },
   ];
 

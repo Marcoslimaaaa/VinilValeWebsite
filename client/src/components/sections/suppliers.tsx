@@ -1,7 +1,7 @@
 import { ShieldCheck } from "lucide-react";
 
 export default function Suppliers() {
-  const suppliers = ["Acqualiner", "Sansui", "Sipatex", "Locomotiva"];
+  const suppliers = ["Acqualiner", "Sansui", "Cipatex", "Locomotiva"];
 
   return (
     <section className="py-20 bg-white">

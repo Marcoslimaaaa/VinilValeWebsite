@@ -15,7 +15,7 @@ export default function Hero() {
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
         <img
-          src="https://images.unsplash.com/photo-1544551763-46a013bb70d5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1920&h=1080"
+          src="/attached_assets/Design sem nome (9)_1751415805841.png"
           alt="Piscina moderna com revestimento de vinil"
           className="w-full h-full object-cover"
         />
